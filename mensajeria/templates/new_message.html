@@ -1,0 +1,43 @@
+<!--
+Proyecto de desarrollo de aplicaciones web
+Vista nuevo mensaje
+-->
+
+<meta charset="utf-8">
+<html lang="es_MX">
+
+<head>
+    <title>Nuevo mensaje - Mensajator 3000</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='enviar.js') }}"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Servicio de mensajeria express.</h1>
+        <h2>Desarrollo de aplicaciones web.</h2>
+        <h2>Alan Velasco, Antonio Tarín, Candy Torres, Jorge Ramírez, Katia Tarín.</h2>
+        <hr>
+    </header>
+    <h1>✉️ Nuevo mensaje</h1>
+    <p>🤷 Para:
+        <input id="paraNombre" type="text" name="message_to" placeholder="Ej. Jaime" autofocus>
+    </p>
+    <p>💁‍ De:
+        <input id="deNombre" type="text" name="message_from" placeholder="Ej. Andres">
+    </p>
+    <p>🗒 Contenido
+        <br/>
+        <textarea id="contenidoMensaje" name="message_content" rows="4" cols="50" placeholder="Escribe tu mensaje aquí."></textarea>
+    </p>
+    <!--<input id="botonEnviar" type="button" name="send_message" value="Enviar mensaje">-->
+    <center>
+        <input type="button" id="botonEnviar" value="Enviar mensaje">
+    </center>
+    <p>
+        <a href="../">🏠 Regresar al inicio</a>
+    </p>
+</body>
+
+</html>

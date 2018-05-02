@@ -1,0 +1,46 @@
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  background-image: url('images/bg.png');
+  padding: 12px 12px;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 24px;
+}
+
+a {
+  color: #3474db;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c15e1d;
+}
+
+input {
+  font-size: 18px;
+  border-radius: 7px;
+  padding: 10px 10px;
+}
+
+textarea {
+  font-size: 18px;
+  margin-top: 10px;
+  border-radius: 7px;
+  padding: 10px 10px;
+}
+
+table, th, td {
+   border: 1px solid #333333;
+   padding: 10px 10px;
+   text-align: left;
+   max-width: 100%;
+}
