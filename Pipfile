@@ -9,6 +9,7 @@ name = "pypi"
 [packages]
 flask = "*"
 click = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.6"
